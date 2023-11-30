@@ -1,0 +1,9 @@
+
+A Document Type Declaration is a set of instructions that links with a specific XML or SGML document. In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax.
+
+We can say in simple language:-
+
+DOCTYPE declaration in html page is used to tell the browser that this is a html page and also about the version of html.
+<!DOCTYPE html>
+This declaration above is for html5
+
