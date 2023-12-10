@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feature of HTML5</title>
+    <style>
+      body {
+        text-align: center;
+        
+      }
+      #playback {
+        border: 1px solid black;
+        background-color: rgba(136, 195, 255, 0.974);
+        margin: 1px;
+      }
+      #forms {
+        border: 1px solid black;
+        background-color: pink;
+        margin: 1px;
+      }
+      #semantic {
+        border: 1px solid black;
+        background-color: rgba(143, 161, 188, 0.907);
+        margin: 1px;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Feature of HTML 5</h1>
+    </header>
+    <section id="playback">
+      <h2>Feature 1: Video Playback</h2>
+      <p>HTML 5 introduce the video tag without require plug-in</p>
+      <video
+        controls
+        poster="./media/banner.png"
+        src="./media/video.mp4"
+        type="video/mp4"
+        width="380"
+        height="200"
+      ></video>
+    </section>
+    <section id="forms">
+      <h2>Feature 2: Form validation</h2>
+      <p>HTML 5 offers form validation</p>
+
+      <fieldset
+        style="display: inline; background-color: rgba(0, 139, 139, 0.314)"
+      >
+        <legend>Sign-up</legend>
+        <form action="ac.js" method="get">
+          <div>
+            <label for="name">First Name</label>
+            <input
+              type="text"
+              name="First Name"
+              placeholder="Enter your first name"
+              id="name"
+              required
+              minlength="2"
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="last">Last Name</label>
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Enter your last name"
+              id="last"
+              required
+              minlength="2"
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="email">E - mail:</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email ID"
+              id="email"
+              required
+              size="22"
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your Password"
+              id="password"
+              required
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="repassword">Confirm password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Re-enter Password"
+              id="repassword"
+              required
+              size="14"
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob" required />
+            <label for="age">age</label>
+            <input
+              type="number"
+              name="Age"
+              id="age"
+              value="age"
+              min="1"
+              max="150"
+              required
+              size="10"
+            />*
+          </div>
+          <br />
+          <div>
+            <label for="">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="male" required />
+            <label for="female">female</label>
+            <input type="radio" name="Gender" id="female" value="female" />
+            <label for="other">Other</label>
+            <input type="radio" name="Gender" id="other" value="other" /> *
+          </div>
+          <br />
+          <div>
+            <label for="term"></label>
+            <input type="checkbox" name="term" id="term" required /> I agree to
+            term and conditions. *
+          </div>
+          <br />
+          <div>
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </fieldset>
+    </section>
+    <section id="semantic">
+      <h2>Feature 3: Semantic Tags</h2>
+      <p>
+        HTML 5 offers Semantic Tags <code>&lt;header&gt;</code>,
+        <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and many more.
+      </p>
+
+      <article>
+        <h3>Article title</h3>
+        <p>
+          Above I use the article tag .This tag makes it better and improve the
+          SEO.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <p>PW skills &copy; 2023</p>
+    </footer>
+  </body>
+</html>

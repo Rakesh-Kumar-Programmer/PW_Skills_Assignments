@@ -1,0 +1,23 @@
+HTML Entities:
+
+An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). HTML entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use HTML character entities in place of other characters that are difficult to type with a standard keyboard.
+
+List of some HTML entities:
+
+&copy; - Represent a copyright symbal ©
+example: <p>&copy; 2023 PW Skills</p>
+
+&pound; - Represent a pound symbal £
+example: <p> Price is 100 &pound; </p>
+
+&lt; - Represent as the beinning of a tag <
+example: <p> h1 tag syntax &lt;h1&gt;Heading&lt;/h1&gt;</p>
+
+&gt; - Represent as the ending of a tag >
+example: <p> paragraph tag syntax &lt;p&gt;paragraph&lt;/p&gt;</p>
+
+&amp; - Represent a ampersand symbal &
+example: <p> Thanks &amp; Regards: </p>
+
+
+
