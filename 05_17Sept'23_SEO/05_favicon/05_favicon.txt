@@ -1,0 +1,15 @@
+A favicon (short for "favorite icon") is a small, square icon associated with a website. It is typically displayed in the browser's address bar, tabs, bookmarks, and other places to help users easily identify and recognize a website. Favicons are often a simplified version of a website's logo or a distinctive symbol related to the site.
+
+Illustrative Example:
+
+
+Let's say you have a website named "Example.com," and you want to add a favicon to your site. The favicon file is usually a small image file, commonly in the ICO (Icon) format, though other formats like PNG are also supported.
+
+Create a Favicon Image:
+Create a small square image that represents your website. The recommended size for favicons is 16x16 pixels or 32x32 pixels.
+
+Save the Image:
+Save the image in an appropriate format, such as ICO or PNG. If you're using an ICO file, it's a good idea to include multiple sizes to accommodate different display contexts.
+
+Add Favicon Code to HTML:
+Insert the following code inside the <head> section of your HTML document
