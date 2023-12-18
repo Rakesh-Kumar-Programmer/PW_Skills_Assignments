@@ -1,0 +1,20 @@
+Accessibility in Web Development:
+
+Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+
+Impaortance:
+
+-Ethical: It's the right thing to do
+-Broader reach: Increases audience size
+-Legal: Avoids the risk of lawsuits
+-SEO: Boosts search engine ranking
+-Demographic: Aging population wants access
+-User experience: Better experience for all users
+
+Benifits for User groups:
+
+(1) Congnitive disabilities
+(2) Visual Impairments
+(3) Hearing Impairments
+(4) Motor Impairments
+(5) Elderly users
