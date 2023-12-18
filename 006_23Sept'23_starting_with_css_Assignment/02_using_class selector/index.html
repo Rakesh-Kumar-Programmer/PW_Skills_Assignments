@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 02 - BEM & Class Selector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BEM and Class selectors</h1>
+
+    <nav class="main">
+      <p class="main__para">This is my main paragraph</p>
+      <p class="main__subpara">This is my sub paragraph</p>
+    </nav>
+    <nav class="sub">
+      <p class="sub__title">This is my sub title</p>
+      <p class="sub__description">This is my sub description</p>
+    </nav>
+    <nav class="button">
+      <button class="button__btn-first">My first button</button>
+      <button class="button__btn-secand">My Secand button</button>
+    </nav>
+    <p><strong>BEM </strong>  which stands for Block, Element and Modifier, is a naming convention of CSS that was introduced by Yandex in order to better connect the HTML and CSS files and make developers be more descriptive with their class names. </p>
+    <table>
+        <ul>
+            <li><strong>Block -</strong> The highest level of abstraction, representing a standalone component or entity on the page. Blocks are reusable and can be used independently. Block names are written in all lowercase and separated by hyphens. For example .header, .menu, .butto</li>
+            <li><strong>Element -</strong> it represents a part of a block that has no standalone meaning. Elements depend on their parent block for context. Element names are written in all lowercase and are separated from the block name by a double underscore (__). For example .header__logo, .menu__item, .button__icon</li>
+            <li><strong>Modifier -</strong> it is used to change the appearance or behaviour of a block or element. It represents variations or states of a block or element. Modifier names are written in all lowercase and are separated from the block or element name by a double dash (--). For example .button--primary, .menu__item--active</li>
+        </ul>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        margin: 3px;
+        padding: 10px;
+        background-color: aquamarine;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;color: blueviolet;">Working with Css</h1>
+    <div class="flex-container">
+      <div class="up">
+        <h2>Uttar Pradesh</h2>
+        <ol>
+          <li class="city">Lucknow</li>
+          <li class="city1">Hardoi</li>
+          <li class="city">Shahjahanpur</li>
+          <li class="city">Sitapur</li>
+        </ol>
+      </div>
+      <div class="hr">
+        <h2>Haryana</h2>
+        <ol>
+          <li class="city">Ambala</li>
+          <li class="city">Chandigarh</li>
+          <li class="city2">Gurgram</li>
+          <li class="city">Panipat</li>
+        </ol>
+      </div>
+      <div class="uk">
+        <h2>Uttrakhand</h2>
+        <ol>
+          <li class="city">Almora</li>
+          <li class="city">Nanital</li>
+          <li class="city">Dehradun</li>
+          <li class="city3">Haridwar</li>
+        </ol>
+      </div>
+    </div>
+    <div id="other">
+      <p>
+        <strong> Question: </strong>
+        Create a simple page with some div tags and show different ways to add
+        CSS as well as what happens when you target the same elements with
+        inline, internal, and external CSS. Also, utilize comments in the
+        project where required.
+      </p>
+      <p style="color: blue">
+        <strong> Answer: </strong>
+        There are three ways to add CSS. via external file . Via internal style
+        tags in head part of the page and as inline CSS. Out of these three
+        inline css has highest priority. I am using inline css (text-align and color) in h1 tag and paragraph tag and I am using internal css (display:flex,border,margin,padding,background-color) pointing to div tag whose class is flex-container. I am importing external css via link tag in head section and change background-color & color by class selector in city1,city2,city3 .
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+
+  justify-content: space-around;
+}
+.main__para {
+  color: blue;
+}
+.main__subpara {
+  color: brown;
+}
+.sub {
+  display: flex;
+  justify-content: space-around;
+}
+.sub__title {
+  color: rgb(84, 145, 22);
+}
+.sub__description {
+  color: rgb(80, 112, 220);
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.button__btn-first {
+  background-color: chartreuse;
+  padding: 2px;
+}
+.button__btn-secand {
+  background-color:pink;
+
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(240, 221, 224);
+}
+p{
+    text-align:center;
+    
+}
