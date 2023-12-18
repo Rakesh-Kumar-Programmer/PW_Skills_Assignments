@@ -1,0 +1,17 @@
+Java script:-
+
+JavaScript is a famous programming language that is widely used to build web applications. It is a client-side scripting language, which means that it is run by your web browser rather than on a server.It is used for buiilding web applications because it is very fast and resonsive. Nowdays it is used in the backend also. With the help of node.js and javascript we create mobile apps, web application and interactive documents.
+
+Role:
+
+The role of javascript is:-
+
+-Web Development
+-Web applications
+-Server side Development
+-Mobile App Development
+-Game Development
+-browser Extensions
+-Data Visualization
+-Real-time Applications
+-Automation

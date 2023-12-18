@@ -1,0 +1,3 @@
+Comments in Javascript:
+
+comments playing very important role in coding .They always help us to understand anyone programmer's code. Comments are useful for documentation, Debugging, Reminder, and work in progress.Comments are also very useful for reminding of future prospects and modifications or improvements in the code.Comments can also mark certain unfinished sections or indicate that certain code is under development.
