@@ -1,0 +1,14 @@
+Role of operators in JavaScript:-
+
+JavaScript operators are fundamental building blocks of the language, allowing developers to perform various operations on values. From basic arithmetic calculations to complex logical evaluations, JavaScript operators provide the necessary tools to manipulate data and control program flow. In this article, we will explore the different types of JavaScript operators, their precedence, and usage scenarios. Whether you’re a beginner or an experienced developer, understanding JavaScript operators is essential for writing efficient and powerful code.
+
+
+There are essential  in programming language as it can be used to:-
+
+Arithmetic Operators
+Comparison (Relational) Operators
+Bitwise Operators
+Logical Operators
+Assignment Operators
+Special Operators
+Arithmetic Operators:

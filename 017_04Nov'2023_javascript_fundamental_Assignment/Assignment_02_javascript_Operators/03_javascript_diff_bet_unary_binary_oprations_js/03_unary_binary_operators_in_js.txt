@@ -1,0 +1,35 @@
+Difference between Unary and binary operators in Javascript:-
+
+In programming, operators are symbols that represent computations. They can be used to manipulate data, perform calculations, and control the flow of a program. There are two main categories of operators: unary and binary.
+Unary operators operate on a single operand, while binary operators operate on two operands. Here are some examples of unary and binary operators in JavaScript.
+
+Unary operators:
+
+typeof - returns the type of a variable
+delete - deletes a property from an object
+! - logical NOT
+- - negation
++ - positive sign
+~ - bitwise NOT
+
+Binary operators:
+
++ - addition
+- - subtraction
+* - multiplication
+/ - division
+% - modulus
+== - equality
+=== - Strict equality
+!= - inequality
+< - less than
+> - greater than
+<= - less than or equal to
+>= - greater than or equal to
+&& - logical AND
+|| - logical OR
+^ - bitwise XOR
+& - bitwise AND
+| - bitwise OR
+<< - left shift
+>> - right shift
