@@ -1,0 +1,11 @@
+Usage of Ternary Oprator:
+
+simple conditional statements. 
+
+symtex:-
+
+condition ? expression1 : expression2
+
+condition : A boolean expression that is evaluated.
+expression1 : The value to return if the condition is true.
+expression2 : The value to return if the condition is false.
