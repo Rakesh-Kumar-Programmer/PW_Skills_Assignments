@@ -1,0 +1,14 @@
+
+#main{
+    background-color: blueviolet;
+    padding: 20px;    
+}
+a{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+a:hover{
+    color: black;
+}
