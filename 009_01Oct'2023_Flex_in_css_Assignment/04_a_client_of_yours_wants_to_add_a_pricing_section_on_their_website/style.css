@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 46);
+}
+.main{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap:wrap
+}
+
+.container{
+    display: flex;
+    margin: 10%;
+    padding: 20px; 
+    background-color:rgba(255, 255, 255, 0.547);
+    border-radius: 10px;
+}
+@media screen and (max-width: 920px) {
+    .container {
+        
+        flex-direction: column;
+        height: auto;
+    }
+    body{
+        height: auto;
+    }
+
+}
+.child{
+    /* border: 1px solid black; */
+    width: 262px;
+    height: auto;
+    padding: 32px 30px 32px 32px;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow:0 1px 10px 0 rgba(0, 0, 0, 0.25);
+    
+    
+}
+#freecard{
+    background-color: pink;
+    color: rgb(3, 3, 46);
+}
+#proplan{
+    background-color: pink;
+    color: rgb(3, 3, 46);
+}
+#basicplan{
+    color: white;
+    background-color: rgb(3, 3, 46);
+}
+.submit{
+    width: 60%;
+    height: 10%;
+   
+    padding: 5px;
+    flex-direction: column;
+    align-items:end;
+   
+}
+input{
+    width: 180%;
+    height: 38px;
+    border-radius: 33px;
+    
+   
+   
+}
+#submit{
+   background-color: rgb(3, 3, 46); 
+   color: white;
+   
+}
+.plandetail{
+    margin-bottom: 25%;
+    margin-top: 10%;
+}

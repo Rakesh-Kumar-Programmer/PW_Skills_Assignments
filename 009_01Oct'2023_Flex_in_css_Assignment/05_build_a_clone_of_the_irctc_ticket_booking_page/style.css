@@ -1,0 +1,208 @@
+*{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.full-container{
+    /* max-width: 1440px; */
+    min-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    font-family: sans-serif;
+}
+.right{
+    width: 50%;
+    height: 650px;
+    
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px ;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo-container img{
+    height:50px;
+    width: 50px;
+}
+.navigation-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.navigation-container ul{
+    display: flex;
+    gap: 25px;
+    font-size:12px;
+}
+.navigation-container li{
+    cursor: pointer;
+}
+
+.navigation-container button{
+    padding: 4px 7 px;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 5px;
+    
+}
+#login{
+    background-color:rgba(255, 68, 0, 0.694);
+}
+.navigation-container select{
+    background-color:#FB792B;
+    border-color: #fB792B;
+    color: white;
+}
+.main-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.sub-main-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.green-text{
+    color: green;
+}
+.orange-text{
+    color: orange;
+}
+.blue-text{
+    color: blue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.book-tiket{
+    background-color: blue;
+    color: white;
+}
+main .choose-container{
+    display: flex;
+    gap: 20px;
+}
+main .choose-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+main .choose-container .selected{
+    border-color: #213D77;
+    background-color: #213D77;
+    color: white;
+}
+main .journey-details-countainer{
+    display: flex;
+    border: 1px solid lightgrey;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+main .card-element{
+    display: flex;
+    align-items: center;
+}
+.card-elements-image-container img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+main .journey-details-section-container{
+     display: flex;
+    /* border: 1px solid lightgrey; */
+    /* padding: 15px 10px; */
+    /* margin-bottom: 10px; */
+    /* border-radius: 5px; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+main #secand-div{
+    display: flex;
+    border: 1px solid lightgrey;
+    padding: 15px 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .card-element1{
+    display: flex;
+    align-items: center;
+}
+.card-elements-image-container1 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+main .select-option{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+main .choose-location span{
+    font-size: 12px;
+    color: gray;
+}
+main .center-from-to-arrow{
+    cursor: pointer;
+}
+
+#secand-div img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.search-button{
+    display: flex;
+    background-color: green;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   
+    
+    }
